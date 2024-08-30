@@ -1,0 +1,94 @@
+/* pages/Home.module.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #005bb5;
+  }
+  
+  .taskList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .taskItem {
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .taskActions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .editButton,
+  .deleteButton {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .editButton {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  .editButton:hover {
+    background-color: #e0a800;
+  }
+  
+  .deleteButton {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .deleteButton:hover {
+    background-color: #c82333;
+  }
+  
