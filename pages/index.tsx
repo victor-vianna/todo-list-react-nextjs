@@ -74,6 +74,7 @@ const HomePage = () => {
       fetchTasks();
     }
   };
+  console.log('mudei aqui')
 
   // Handle editing a task
   const handleEdit = (task: Task) => {
